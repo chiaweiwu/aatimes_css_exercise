@@ -1,0 +1,159 @@
+.content-hr{
+  height: 1px;
+  background: #e2e2e2;
+  border: 0;
+  margin: 1em 0;
+}
+
+h1{
+  color: #000;
+  font-size: 2em;
+  font-family: $serif;
+  font-style: italic;
+  font-weight: 900;
+}
+
+h1:hover{
+  font-style: italic;
+  text-decoration: underline;
+}
+
+h2{
+  color: #000;
+  font-size: 1.15em;
+  font-family: $serif;
+  font-weight: 900;
+}
+
+h2:hover{
+  text-decoration: underline;
+}
+
+.author{
+  margin: 5px 0;
+  color: $gray;
+  font-size:1.15em;
+}
+
+.small-section{
+  text-transform: uppercase;
+}
+
+.comment{
+  color: $blue;
+}
+
+.comment:hover{
+  color: $blue;
+  text-decoration: underline;
+}
+
+.row p {
+  font-family: $serif;
+  display: block;
+}
+
+.row div{
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+// left
+
+.content-section-hr {
+  border-top: 3px double $gray;
+  background: transparent;
+}
+
+.launch{
+  margin: 1em 0;
+}
+
+.launch li{
+  font-size:1.15em;
+  font-family: $serif;
+  margin: 1em 1em;
+  list-style: square;
+  line-height: 1.5;
+}
+
+// center
+
+.hr-divider {
+  height: 1px;
+  width: 50%;
+  background-color: $gray;
+}
+iframe {
+  margin-bottom: .5em;
+}
+
+// right
+
+.oped{
+  margin: .5em 0;
+}
+
+.oped li{
+  font-size:1.15em;
+  font-weight: 900;
+  font-family: $serif;
+  margin: 1em 1em;
+  list-style: square;
+  line-height: 1.15;
+}
+
+.text {
+  margin: 1em 0;
+  font-weight: 500;
+  font-size:1.15em;
+  line-height: 1.5;
+}
+
+.row .thumbnail{
+  padding: 0;
+  margin: 0;
+  width: 200px;
+  height: 150px;
+}
+
+.row .thumbnail img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.row .form{
+  padding: 0 0 1em 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.form input,
+.form button{
+  display: inline-block;
+}
+
+.form input{
+  flex: 1;
+  border: 1px solid $gray;
+  padding: .5em;
+}
+
+.form button{
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+
+}
+
+.newsletter-text{
+  color: $gray;
+  font-size: 1em;
+  text-align: center;
+  margin: .5em 0;
+}
+
+.opinions > h2{
+  text-align: center;
+}

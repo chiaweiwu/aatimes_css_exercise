@@ -1,0 +1,25 @@
+.section-nav{
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.section-nav li{
+  margin: 0px;
+	margin-right:10px;
+}
+
+.section-nav li a:hover{
+  background-color: $light-gray;
+}
+
+.section-nav li:last-child a{
+  background-color: transparent;
+  color:#000;
+}
+
+.section-nav li:last-child a:hover{
+  text-decoration: underline;
+}

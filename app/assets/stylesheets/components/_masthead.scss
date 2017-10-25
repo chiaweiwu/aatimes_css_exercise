@@ -1,0 +1,140 @@
+.masthead,
+.masthead-sub {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-bottom: 1px solid $light-gray;
+	position: relative;
+}
+
+.masthead-sub{
+	border: none;
+}
+
+.language-nav {
+	position: absolute;
+	top: -22px;
+	left: calc(50% - (177.78px/2));
+	background: white;
+	border: 1px solid $light-gray;
+	border-bottom: none;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+.language-nav a {
+	margin: 0px;
+	text-transform: uppercase;
+	font-family: $sans-serif;
+	font-size: 10px;
+	color: $dark-gray;
+}
+
+.language-nav ul,
+.masthead-sub ul{
+	display: flex;
+}
+
+.logo {
+	max-width: 400px;
+	margin-top: 10px;
+}
+
+.masthead-sub,
+.masthead-links {
+	display: flex;
+	font-family: $sans-serif;
+	font-size: 11px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.masthead-links li {
+	color: #000;
+	font-size: 1em;
+	margin: 0px;
+	margin-right:10px;
+}
+
+.masthead-sub li {
+	border-right: 1px solid $light-gray;
+	padding: 0em 1em;
+}
+
+
+.masthead-sub li:last-child{
+	border-right: none;
+}
+
+.masthead-links li:first-child{
+	font-weight: bold;
+	margin-left:2px;
+}
+
+.masthead-links li:last-child{
+	margin-right:2px;
+}
+
+.masthead-links button {
+	background: none;
+	padding: 0px;
+	color: #000;
+	font-weight: normal;
+	border: none;
+}
+
+.masthead-links button:hover {
+	background-color: $lightest-gray;
+}
+
+.masthead-links li a:hover{
+	text-decoration: underline;
+}
+
+
+.masthead-sub .masthead-links > li{
+	font-weight: 400;
+	margin: 0;
+}
+
+.masthead-sub .masthead-links > li:hover{
+	color: #000;
+}
+
+.masthead-sub .masthead-links > li:last-child{
+	font-weight: 400;
+	margin: 0;
+}
+
+.masthead-sub .masthead-links > li:nth-child(4) a:hover,
+.masthead-sub .masthead-links > li:last-child	a:hover,{
+	color: $light-gray;
+	text-decoration: none;
+}
+
+.masthead-sub img{
+	max-width: 30%;
+}
+
+.masthead-links a,
+.masthead-links button,
+.masthead-links time {
+	margin: 0px;
+}
+
+.masthead-links i {
+	margin-right: 5px;
+}
+
+.masthead-links strong {
+	color: green;
+}
+
+#gear-dropdown-btn{
+	background: none;
+	padding: 0px;
+	margin: 1em;
+	color: #000;
+	font-weight: normal;
+	border: none;
+}
